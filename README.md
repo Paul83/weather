@@ -12,7 +12,7 @@ The application sits in a single HTML5 page and uses custom Javascript and CSS, 
 
 Weather data is obtained from the OpenWeatherMap project (http://openweathermap.org/forecast5).
 
-For an mode indepth discussion of the application and its development, see 'Buildit weather about.pdf' (located at the top of the repository).
+For a more indepth discussion of the application and its development, see 'Buildit weather about.pdf' (located at the top of the repository).
 
 ##Installation
 Download or clone all the files and folders in this repository.
@@ -39,7 +39,7 @@ Given more development time, later versions could include:
 * Current location – identify current location using browser-based JavaScript* or call to third-party API. Set current location as default.
 * Additional data – ability to show additional information, such as humidity and hourly temperatures.
 * More detailed forecasts for days 2 – 5.
-* Previous state
+* Previous state restoration on initial load.
 * Ability to change location displayed.
 * User error messages.
 * Automatically refresh data every 15 minutes.
