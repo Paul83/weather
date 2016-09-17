@@ -12,23 +12,25 @@ The application sits in a single HTML5 page and uses custom Javascript and CSS, 
 
 Weather data is obtained from the OpenWeatherMap project (http://openweathermap.org/forecast5).
 
+For an mode indepth discussion of the application and its development, see 'Buildit weather about.pdf' (located at the top of the repository).
+
 ##Installation
 Download or clone all the files and folders in this repository.
 
 Add the files to the top of your web directory from which you wish to serve the applicastion.
 
-This repository also contains Jasmine test files, in the folder 'jasmine' at the top of the directory. The jasmine folder, and its contents, are not required to run the application.
+This repository also contains a pdf file 'Buildit weather about.pdf' and Jasmine test files, in the folder 'jasmine' at the top of the directory. The pdf and jasmine folder, and its contents, are not required to run the application.
 
 ## Version notes
 Due to the time constriants, this (first) version has restricted functionality:
 
 * Fetch 5 day/ 3 hour weather forecast for fixed location (London, UK), from OpenWeatherMap.
 * Use single language for UI (UK English) and Celsius for units.
-* Refresh every 3 hrs.
+* Does not refresh data.
 * Limited displayed data (e.g. temp + description).
 * Highlight of next 5 days. 
 
-In addition, the graphic used are those of the service provider, OpenWeatherMap.
+In addition, the graphics used are those of the service provider, OpenWeatherMap.
 
 Given more development time, later versions could include:
 
@@ -40,6 +42,7 @@ Given more development time, later versions could include:
 * Previous state
 * Ability to change location displayed.
 * User error messages.
+* Automatically refresh data every 15 minutes.
 
 
 ## Testing
