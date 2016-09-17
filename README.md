@@ -17,7 +17,7 @@ For a more indepth discussion of the application and its development, see 'Build
 ##Installation
 Download or clone all the files and folders in this repository.
 
-Add the files to the top of your web directory from which you wish to serve the applicastion.
+Add the files to the top of your web directory from which you wish to serve the application. No additional libraries are required.
 
 This repository also contains a pdf file 'Buildit weather about.pdf' and Jasmine test files, in the folder 'jasmine' at the top of the directory. The pdf and jasmine folder, and its contents, are not required to run the application.
 
